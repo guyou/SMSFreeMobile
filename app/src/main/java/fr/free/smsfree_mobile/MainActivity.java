@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        @SuppressLint("WrongViewCast") Spinner sAccounts = (Spinner)findViewById(R.id.spinner);
+        Spinner sAccounts = findViewById(R.id.spinner);
 
         List<NamedAccount> accounts = AccountsHelper.getNamedAccounts(this);
 
