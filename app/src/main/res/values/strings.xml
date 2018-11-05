@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SMS Free-Mobile</string>
+    <string name="to">To:</string>
+    <string name="clear">Clear</string>
+    <string name="send">Send</string>
+    <string name="title_activity_accounts">Accounts</string>
+    <string name="accounts_file_key">fr.free.smsfree_mobile.ACCOUNTS_FILE_KEY</string>
+    <string name="dialog_new_account">New account</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+</resources>
