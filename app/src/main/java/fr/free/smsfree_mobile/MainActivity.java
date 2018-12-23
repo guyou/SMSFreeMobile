@@ -36,9 +36,6 @@ public class MainActivity extends AppCompatActivity implements DownloadCallback 
 
         List<NamedAccount> accounts = AccountsHelper.getNamedAccounts(this);
 
-        // FIXME remove
-        accounts.add(new NamedAccount("Demo", "123", "pass"));
-
         // Create an adapter
         AccountNameAdapter adapter = new AccountNameAdapter(this, accounts);
 
